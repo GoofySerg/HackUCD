@@ -35,3 +35,7 @@ next-env.d.ts
 
 # test coverage
 /coverage
+
+# large dataset files
+SP500_Historical_Data.csv
+featured_db.csv
