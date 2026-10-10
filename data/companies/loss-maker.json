@@ -1,0 +1,91 @@
+{
+  "schemaFormat": "canonical",
+  "dataType": "synthetic",
+  "datasetVersion": "2024.1",
+  "identity": {
+    "ticker": "NOVA",
+    "companyName": "NovaBio Therapeutics",
+    "sector": "Healthcare",
+    "industry": "Clinical-Stage Biotechnology",
+    "description": "NovaBio Therapeutics is a FICTIONAL clinical-stage biotech used to demonstrate StockScope AI with a loss-making, cash-burning profile. It has no approved products and funds operations through research spending. All figures are synthetic.",
+    "currency": "EUR",
+    "exchange": "SYNTHETIC-EXCHANGE"
+  },
+  "statements": [
+    {
+      "id": "NOVA-FY2022",
+      "fiscalYear": 2022,
+      "fiscalPeriodEnd": "2022-12-31",
+      "revenue": 12000000,
+      "operatingIncome": -85000000,
+      "netIncome": -88000000,
+      "totalAssets": 420000000,
+      "totalLiabilities": 140000000,
+      "shareholdersEquity": 280000000,
+      "totalDebt": 90000000,
+      "cashAndCashEquivalents": 260000000,
+      "operatingCashFlow": -78000000,
+      "capitalExpenditures": 15000000,
+      "freeCashFlow": null
+    },
+    {
+      "id": "NOVA-FY2023",
+      "fiscalYear": 2023,
+      "fiscalPeriodEnd": "2023-12-31",
+      "revenue": 9000000,
+      "operatingIncome": -102000000,
+      "netIncome": -108000000,
+      "totalAssets": 330000000,
+      "totalLiabilities": 170000000,
+      "shareholdersEquity": 160000000,
+      "totalDebt": 120000000,
+      "cashAndCashEquivalents": 175000000,
+      "operatingCashFlow": -95000000,
+      "capitalExpenditures": 18000000,
+      "freeCashFlow": null
+    },
+    {
+      "id": "NOVA-FY2024",
+      "fiscalYear": 2024,
+      "fiscalPeriodEnd": "2024-12-31",
+      "revenue": 7000000,
+      "operatingIncome": -121000000,
+      "netIncome": -129000000,
+      "totalAssets": 240000000,
+      "totalLiabilities": 210000000,
+      "shareholdersEquity": 30000000,
+      "totalDebt": 165000000,
+      "cashAndCashEquivalents": 92000000,
+      "operatingCashFlow": -110000000,
+      "capitalExpenditures": 20000000,
+      "freeCashFlow": null
+    }
+  ],
+  "valuation": {
+    "asOfDate": "2025-03-15",
+    "sharePrice": 6.2,
+    "sharesOutstanding": 95000000,
+    "marketCapitalization": 589000000,
+    "earningsPerShare": -1.36,
+    "peRatio": null,
+    "priceToSalesRatio": null
+  },
+  "sources": [
+    {
+      "id": "nova-ar-2024",
+      "sourceName": "NovaBio FY2024 Annual Report (synthetic)",
+      "sourceURL": "https://example.com/novabio/ar-2024",
+      "filingDate": "2025-02-28",
+      "retrievedAt": "2025-03-15T09:00:00Z",
+      "dataType": "synthetic"
+    },
+    {
+      "id": "nova-market-2025",
+      "sourceName": "Synthetic market data snapshot",
+      "sourceURL": null,
+      "filingDate": null,
+      "retrievedAt": "2025-03-15T09:00:00Z",
+      "dataType": "synthetic"
+    }
+  ]
+}

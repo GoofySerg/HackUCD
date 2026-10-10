@@ -1,0 +1,115 @@
+{
+  "schemaFormat": "canonical",
+  "dataType": "synthetic",
+  "datasetVersion": "2024.1",
+  "identity": {
+    "ticker": "EXMP",
+    "companyName": "Example Corp",
+    "sector": "Technology",
+    "industry": "Enterprise Software",
+    "description": "Example Corp is a FICTIONAL company used to demonstrate StockScope AI. It sells a cloud-based workflow-automation platform to mid-sized businesses on a subscription basis. All figures below are entirely synthetic and do not represent any real company or security.",
+    "currency": "EUR",
+    "exchange": "SYNTHETIC-EXCHANGE"
+  },
+  "statements": [
+    {
+      "id": "EXMP-FY2021",
+      "fiscalYear": 2021,
+      "fiscalPeriodEnd": "2021-12-31",
+      "revenue": 820000000,
+      "operatingIncome": 98000000,
+      "netIncome": 72000000,
+      "totalAssets": 1100000000,
+      "totalLiabilities": 540000000,
+      "shareholdersEquity": 560000000,
+      "totalDebt": 300000000,
+      "cashAndCashEquivalents": 180000000,
+      "operatingCashFlow": 140000000,
+      "capitalExpenditures": 60000000,
+      "freeCashFlow": null
+    },
+    {
+      "id": "EXMP-FY2022",
+      "fiscalYear": 2022,
+      "fiscalPeriodEnd": "2022-12-31",
+      "revenue": 1020000000,
+      "operatingIncome": 128000000,
+      "netIncome": 95000000,
+      "totalAssets": 1350000000,
+      "totalLiabilities": 700000000,
+      "shareholdersEquity": 650000000,
+      "totalDebt": 400000000,
+      "cashAndCashEquivalents": 210000000,
+      "operatingCashFlow": 175000000,
+      "capitalExpenditures": 80000000,
+      "freeCashFlow": null
+    },
+    {
+      "id": "EXMP-FY2023",
+      "fiscalYear": 2023,
+      "fiscalPeriodEnd": "2023-12-31",
+      "revenue": 1280000000,
+      "operatingIncome": 150000000,
+      "netIncome": 110000000,
+      "totalAssets": 1700000000,
+      "totalLiabilities": 980000000,
+      "shareholdersEquity": 720000000,
+      "totalDebt": 560000000,
+      "cashAndCashEquivalents": 240000000,
+      "operatingCashFlow": 205000000,
+      "capitalExpenditures": 110000000,
+      "freeCashFlow": null
+    },
+    {
+      "id": "EXMP-FY2024",
+      "fiscalYear": 2024,
+      "fiscalPeriodEnd": "2024-12-31",
+      "revenue": 1500000000,
+      "operatingIncome": 158000000,
+      "netIncome": 96000000,
+      "totalAssets": 2000000000,
+      "totalLiabilities": 1260000000,
+      "shareholdersEquity": 740000000,
+      "totalDebt": 820000000,
+      "cashAndCashEquivalents": 190000000,
+      "operatingCashFlow": 198000000,
+      "capitalExpenditures": 160000000,
+      "freeCashFlow": null
+    }
+  ],
+  "valuation": {
+    "asOfDate": "2025-03-15",
+    "sharePrice": 24.5,
+    "sharesOutstanding": 120000000,
+    "marketCapitalization": 2940000000,
+    "earningsPerShare": 0.8,
+    "peRatio": null,
+    "priceToSalesRatio": null
+  },
+  "sources": [
+    {
+      "id": "src-ar-2024",
+      "sourceName": "Example Corp FY2024 Annual Report (synthetic)",
+      "sourceURL": "https://example.com/investors/annual-report-2024",
+      "filingDate": "2025-02-20",
+      "retrievedAt": "2025-03-15T09:00:00Z",
+      "dataType": "synthetic"
+    },
+    {
+      "id": "src-ar-2023",
+      "sourceName": "Example Corp FY2023 Annual Report (synthetic)",
+      "sourceURL": "https://example.com/investors/annual-report-2023",
+      "filingDate": "2024-02-18",
+      "retrievedAt": "2025-03-15T09:00:00Z",
+      "dataType": "synthetic"
+    },
+    {
+      "id": "src-market-2025",
+      "sourceName": "Synthetic market data snapshot",
+      "sourceURL": null,
+      "filingDate": null,
+      "retrievedAt": "2025-03-15T09:00:00Z",
+      "dataType": "synthetic"
+    }
+  ]
+}
